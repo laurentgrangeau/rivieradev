@@ -8,7 +8,7 @@ module.exports.hello = async (event) => {
       'Access-Control-Allow-Credentials': true,
     },
     body: JSON.stringify({
-      message: 'Hello RivieraDev',
+      message: 'Hello RivieraDev!',
       input: event,
     }, null, 2),
   };
